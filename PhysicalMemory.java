@@ -5,7 +5,7 @@ public class PhysicalMemory {
 	/**
 	 * variable to emulate frames in memory
 	 */
-	Frame[] frames;
+	static Frame[] frames;  // the part that should be updated in the github
 	/**
 	 * we need a variable to store how many frames are used
 	 */
@@ -15,7 +15,7 @@ public class PhysicalMemory {
 	 * Constructor
 	 */
 	public PhysicalMemory() {
-		this.frames = new Frame[256];
+		this.frames = new Frame[128];
 		this.currentFreeFrame = 0;
 	}
 
